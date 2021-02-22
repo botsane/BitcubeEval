@@ -1,0 +1,75 @@
+.heading {
+  background-color: yellowgreen;
+  color: black;
+  border: 3px solid green;
+}
+.student {
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+  padding: 15rem 0 20rem 0;
+  text-align: center;
+  background: url(fhello-botsane.jpg) center no-repeat;
+  background-size: cover;
+}
+.contact-heading {
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--white-color);
+  text-shadow: 0 1rem 2rem rgb(146, 16, 16);
+  margin-bottom: 8rem;
+}
+.contact_form {
+  position: center;
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  height: 70%;
+  /*width: 70rem;
+    height: 50rem;*/
+  background-color: rgba(7, 14, 14, 0.884);
+  margin: auto;
+  flex-direction: column;
+  border-radius: 0.6rem;
+  box-shadow: 0 1rem 3rem rgb(36, 63, 78);
+  padding: 5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.label {
+  color: brown;
+}
+.input-group {
+  /*width: 100%;*/
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 1 rem 0;
+  margin: 1rem 0;
+  position: relative;
+}
+.input-groups {
+  /*width: 100%;*/
+  width: auto;
+  justify-content: space-between;
+}
+.form-btn {
+  /*width: 100%;*/
+  width: auto;
+  padding: 1rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  margin-top: 1rem;
+  background-color: var(--light-grey-color);
+  color: var(--white-color);
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+.form-btn:hover {
+  background-color: rgb(146, 16, 16);
+}
