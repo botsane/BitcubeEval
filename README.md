@@ -1,4 +1,2 @@
 # BitcubeEval
-Section 1 :
-lecturer.html
-students.html
+Section 1 & Section 2
